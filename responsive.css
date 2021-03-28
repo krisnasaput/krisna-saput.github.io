@@ -1,0 +1,48 @@
+/* Untuk Smartphone*/
+@media screen and (max-width: 670px) {
+    /*Header*/
+    .header-logo {
+      float: none;
+      width: 100%;
+      margin: 0 85px;
+    }
+  
+    .header-right {
+      float:none;
+      display: block;
+      padding: 0 10px;
+    }
+  
+    .header-right li {
+      line-height: initial;
+      margin-bottom: 5px;
+      padding: 0 10px;
+    }
+  
+    .header-right a {
+      text-transform: uppercase;
+      font-size: 18px;
+      color: rgb(232, 240, 118);
+      }
+    
+    /*Section-1*/
+    .section-1 {
+        left: 0%;
+    }
+
+    .section-1 p {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .section-1 h1 {
+        text-align: center;
+    }
+
+    button {
+        width: 50%;
+        margin: 15px 0;
+        transform: translateX(50%);
+    }
+      
+}
